@@ -18,6 +18,7 @@ mongoose.connect(DB_URL)
   })
   .catch((err) => console.log('DB connection error', err));
 
+  
 const weatherSchema = new mongoose.Schema({
   id : Number,
   city: String,
