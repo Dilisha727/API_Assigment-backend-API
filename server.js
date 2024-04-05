@@ -69,6 +69,7 @@ updateWeatherData();
 
 
 
+
 // API endpoints
 app.get('/api/weather/:city', async (req, res) => {
   const city = req.params.city;
