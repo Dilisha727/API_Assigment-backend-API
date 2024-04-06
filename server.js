@@ -68,9 +68,6 @@ updateWeatherData();
 
 // Start the server and other configurations...
 
-
-
-
 // API endpoints
 app.get('/api/weather/:city', async (req, res) => {
   const city = req.params.city;
