@@ -6,7 +6,9 @@
     "express": "^4.19.2",
     "forever": "^4.0.3",
     "mongoose": "^8.2.4",
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
   },
   "name": "final",
   "version": "1.0.0",
